@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gizlilik Politikası — Islam Super App</title>
+<title>Privacy Policy — Islam Super App</title>
 <style>
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1E241F;line-height:1.7;background:#fff}
   main{max-width:760px;margin:0 auto;padding:32px 20px}
@@ -12,46 +12,126 @@
   a{color:#0E6B54}
   .muted{color:#71756E;font-size:14px}
   ul{padding-left:20px}
+  html[dir=rtl] ul{padding-left:0;padding-right:20px}
+  .langbar{font-size:14px;margin-bottom:20px}
+  .langbar a{margin:0 6px;text-decoration:none}
 </style>
 </head>
 <body>
 <main>
+<div class="langbar">🌐
+  <a href="?lang=tr">Türkçe</a> ·
+  <a href="?lang=en">English</a> ·
+  <a href="?lang=ar">العربية</a>
+</div>
+
+<!-- TÜRKÇE -->
+<section id="lang-tr" style="display:none">
 <h1>Gizlilik Politikası</h1>
 <p class="muted">Son güncelleme: 25 Haziran 2026 · Uygulama: Islam Super App</p>
-
 <p>Bu gizlilik politikası, Islam Super App ("Uygulama") tarafından hangi verilerin işlendiğini ve nasıl korunduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.</p>
-
 <h2>1. İşlenen veriler</h2>
 <ul>
-  <li><strong>Konum:</strong> Namaz vakitleri, kıble yönü ve cami bulucu için cihazınızın konumu kullanılır. Konum, vakit hesaplaması amacıyla Aladhan servisine gönderilebilir; sürekli olarak saklanmaz.</li>
-  <li><strong>İbadet ve uygulama verileri:</strong> Namaz takibi, seri, okuma planı, yer imleri ve ayarlar gibi veriler hesabınıza bağlı olarak Firebase (Firestore) üzerinde saklanır.</li>
+  <li><strong>Konum:</strong> Namaz vakitleri, kıble ve cami bulucu için cihaz konumunuz kullanılır; vakit hesabı için Aladhan servisine gönderilebilir, sürekli saklanmaz.</li>
+  <li><strong>İbadet ve uygulama verileri:</strong> Namaz takibi, seri, okuma planı, yer imleri ve ayarlar hesabınıza bağlı olarak Firebase (Firestore) üzerinde saklanır.</li>
   <li><strong>Hesap:</strong> Anonim veya oturum kimliği (Firebase Authentication) ile cihazınızı tanımlarız.</li>
-  <li><strong>Reklam tanımlayıcıları:</strong> Premium olmayan kullanıcılara reklam göstermek için Google AdMob, cihaz reklam tanımlayıcısını (iOS'ta IDFA) ve benzeri bilgileri kullanabilir. iOS'ta bunun için İzleme İzni (ATT) sorulur; reddederseniz reklamlar kişiselleştirilmeden gösterilir.</li>
-  <li><strong>Satın alma:</strong> Abonelik işlemleri Apple App Store ve RevenueCat üzerinden yürütülür; ödeme kartı bilgileriniz tarafımızca görülmez.</li>
-  <li><strong>AI asistan:</strong> Sorduğunuz sorular, yanıt üretmek için sunucumuz (Cloud Functions) aracılığıyla işlenir.</li>
-  <li><strong>Çökme/teşhis:</strong> Uygulama kararlılığı için Firebase Crashlytics anonim çökme raporları toplayabilir.</li>
+  <li><strong>Reklam tanımlayıcıları:</strong> Premium olmayan kullanıcılara reklam için Google AdMob, cihaz reklam tanımlayıcısını (iOS'ta IDFA) kullanabilir; iOS'ta İzleme İzni (ATT) sorulur, reddederseniz reklamlar kişiselleştirilmeden gösterilir.</li>
+  <li><strong>Satın alma:</strong> Abonelikler Apple App Store ve RevenueCat üzerinden işlenir; kart bilgileriniz tarafımızca görülmez.</li>
+  <li><strong>AI asistan:</strong> Sorularınız yanıt üretmek için sunucumuz (Cloud Functions) üzerinden işlenir.</li>
+  <li><strong>Çökme/teşhis:</strong> Firebase Crashlytics anonim çökme raporları toplayabilir.</li>
   <li><strong>Bildirimler:</strong> Vakit hatırlatmaları için yerel ve push (FCM) bildirimleri kullanılır.</li>
 </ul>
-
-<h2>2. Verilerin paylaşıldığı taraflar</h2>
-<p>Veriler yalnızca hizmetin sağlanması için şu sağlayıcılarla paylaşılır: Google (AdMob, Firebase, Cloud Functions), Apple (App Store, ATT), RevenueCat (abonelik), Aladhan ve alquran.cloud (vakit ve Kur'an verisi), cami bulucu için OpenStreetMap/Google. Verileriniz reklam veya pazarlama amacıyla üçüncü kişilere satılmaz.</p>
-
+<h2>2. Paylaşılan taraflar</h2>
+<p>Veriler yalnızca hizmet için şu sağlayıcılarla paylaşılır: Google (AdMob, Firebase, Cloud Functions), Apple (App Store, ATT), RevenueCat, Aladhan ve alquran.cloud, cami bulucu için OpenStreetMap/Google. Verileriniz pazarlama amacıyla üçüncü kişilere satılmaz.</p>
 <h2>3. Saklama ve güvenlik</h2>
-<p>Veriler, hizmet için gerekli olduğu sürece saklanır ve makul teknik/idari önlemlerle korunur. Hesap verilerinizi silmek isterseniz aşağıdaki e-postadan talepte bulunabilirsiniz.</p>
-
+<p>Veriler hizmet için gerekli olduğu sürece saklanır ve makul önlemlerle korunur. Silme talebi için aşağıdaki e-postayı kullanın.</p>
 <h2>4. Çocukların gizliliği</h2>
-<p>Uygulama genel kitleye yöneliktir ve bilerek 13 yaş altı çocuklardan kişisel veri toplamaz.</p>
-
+<p>Uygulama genel kitleye yöneliktir ve bilerek 13 yaş altından kişisel veri toplamaz.</p>
 <h2>5. Haklarınız (KVKK / GDPR)</h2>
-<p>Kişisel verilerinize erişme, düzeltme, silme ve işlemeye itiraz etme haklarına sahipsiniz. AEA (Avrupa) kullanıcıları için reklam onayı uygulama içinde sorulur ve istediğiniz zaman ayarlardan değiştirilebilir.</p>
-
+<p>Verilerinize erişme, düzeltme, silme ve işlemeye itiraz hakkınız vardır. AEA kullanıcıları için reklam onayı uygulama içinde sorulur.</p>
 <h2>6. İzin yönetimi</h2>
-<p>iOS'ta izleme iznini cihaz Ayarlar &gt; Gizlilik &gt; İzleme bölümünden; konum iznini Ayarlar üzerinden dilediğiniz zaman değiştirebilirsiniz.</p>
-
+<p>iOS'ta izleme ve konum izinlerini cihaz Ayarlar bölümünden değiştirebilirsiniz.</p>
 <h2>7. İletişim</h2>
-<p>Sorularınız için: <a href="mailto:mustafatrkn93@gmail.com">mustafatrkn93@gmail.com</a></p>
-
+<p><a href="mailto:mustafaturkan.apps@gmail.com">mustafaturkan.apps@gmail.com</a></p>
 <p class="muted"><a href="./index.html">← Ana sayfa</a> · <a href="./kullanim-kosullari.html">Kullanım Koşulları</a></p>
+</section>
+
+<!-- ENGLISH -->
+<section id="lang-en" style="display:none">
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: 25 June 2026 · App: Islam Super App</p>
+<p>This privacy policy explains what data Islam Super App (the "App") processes and how it is protected. By using the App you accept this policy.</p>
+<h2>1. Data we process</h2>
+<ul>
+  <li><strong>Location:</strong> Used for prayer times, qibla and the mosque finder; it may be sent to the Aladhan service to calculate times and is not stored continuously.</li>
+  <li><strong>Worship &amp; app data:</strong> Prayer tracking, streaks, reading plan, bookmarks and settings are stored in Firebase (Firestore) tied to your account.</li>
+  <li><strong>Account:</strong> We identify your device with an anonymous or session ID (Firebase Authentication).</li>
+  <li><strong>Advertising identifiers:</strong> To show ads to non‑premium users, Google AdMob may use the device advertising identifier (IDFA on iOS). On iOS the App Tracking Transparency (ATT) prompt is shown; if you decline, ads are shown without personalization.</li>
+  <li><strong>Purchases:</strong> Subscriptions are handled by Apple App Store and RevenueCat; we never see your card details.</li>
+  <li><strong>AI assistant:</strong> Your questions are processed through our server (Cloud Functions) to generate answers.</li>
+  <li><strong>Diagnostics:</strong> Firebase Crashlytics may collect anonymous crash reports.</li>
+  <li><strong>Notifications:</strong> Local and push (FCM) notifications are used for prayer reminders.</li>
+</ul>
+<h2>2. Who we share with</h2>
+<p>Data is shared only to provide the service, with: Google (AdMob, Firebase, Cloud Functions), Apple (App Store, ATT), RevenueCat, Aladhan and alquran.cloud, and OpenStreetMap/Google for the mosque finder. Your data is not sold to third parties for marketing.</p>
+<h2>3. Retention &amp; security</h2>
+<p>Data is kept only as long as needed for the service and protected with reasonable measures. To request deletion, email the address below.</p>
+<h2>4. Children's privacy</h2>
+<p>The App is for a general audience and does not knowingly collect personal data from children under 13.</p>
+<h2>5. Your rights (KVKK / GDPR)</h2>
+<p>You may access, correct, delete and object to processing of your data. For EEA users, ad consent is requested inside the App.</p>
+<h2>6. Managing permissions</h2>
+<p>On iOS you can change tracking and location permissions anytime in device Settings.</p>
+<h2>7. Contact</h2>
+<p><a href="mailto:mustafaturkan.apps@gmail.com">mustafaturkan.apps@gmail.com</a></p>
+<p class="muted"><a href="./index.html">← Home</a> · <a href="./kullanim-kosullari.html">Terms of Use</a></p>
+</section>
+
+<!-- العربية -->
+<section id="lang-ar" style="display:none" dir="rtl">
+<h1>سياسة الخصوصية</h1>
+<p class="muted">آخر تحديث: 25 يونيو 2026 · التطبيق: Islam Super App</p>
+<p>توضّح سياسة الخصوصية هذه البيانات التي يعالجها تطبيق Islam Super App ("التطبيق") وكيفية حمايتها. باستخدامك التطبيق فإنك توافق على هذه السياسة.</p>
+<h2>1. البيانات التي نعالجها</h2>
+<ul>
+  <li><strong>الموقع:</strong> يُستخدم لأوقات الصلاة والقبلة والعثور على المساجد؛ وقد يُرسَل إلى خدمة Aladhan لحساب الأوقات ولا يُخزَّن بشكل دائم.</li>
+  <li><strong>بيانات العبادة والتطبيق:</strong> تُحفظ متابعة الصلوات والسلاسل وخطة القراءة والإشارات المرجعية والإعدادات في Firebase (Firestore) مرتبطةً بحسابك.</li>
+  <li><strong>الحساب:</strong> نُعرّف جهازك بمعرّف مجهول أو معرّف جلسة (Firebase Authentication).</li>
+  <li><strong>معرّفات الإعلانات:</strong> لعرض الإعلانات للمستخدمين غير المشتركين، قد يستخدم Google AdMob معرّف الإعلان للجهاز (IDFA على iOS). على iOS يظهر طلب تتبّع الشفافية (ATT)؛ إذا رفضت، تُعرض الإعلانات دون تخصيص.</li>
+  <li><strong>المشتريات:</strong> تُدار الاشتراكات عبر Apple App Store وRevenueCat؛ ولا نرى بيانات بطاقتك.</li>
+  <li><strong>المساعد الذكي:</strong> تُعالَج أسئلتك عبر خادمنا (Cloud Functions) لإنشاء الإجابات.</li>
+  <li><strong>التشخيص:</strong> قد يجمع Firebase Crashlytics تقارير أعطال مجهولة.</li>
+  <li><strong>الإشعارات:</strong> تُستخدم إشعارات محلية وفورية (FCM) للتذكير بأوقات الصلاة.</li>
+</ul>
+<h2>2. الأطراف التي نشارك معها</h2>
+<p>تُشارك البيانات فقط لتقديم الخدمة مع: Google (AdMob وFirebase وCloud Functions)، وApple (App Store وATT)، وRevenueCat، وAladhan وalquran.cloud، وOpenStreetMap/Google للعثور على المساجد. لا تُباع بياناتك لأطراف ثالثة لأغراض تسويقية.</p>
+<h2>3. الحفظ والأمان</h2>
+<p>تُحفظ البيانات طوال المدة اللازمة للخدمة وتُحمى بإجراءات معقولة. لطلب الحذف، راسلنا على البريد أدناه.</p>
+<h2>4. خصوصية الأطفال</h2>
+<p>التطبيق موجَّه لجمهور عام ولا يجمع عمدًا بيانات شخصية من الأطفال دون 13 عامًا.</p>
+<h2>5. حقوقك (KVKK / GDPR)</h2>
+<p>يحق لك الوصول إلى بياناتك وتصحيحها وحذفها والاعتراض على معالجتها. لمستخدمي المنطقة الاقتصادية الأوروبية يُطلب موافقة الإعلانات داخل التطبيق.</p>
+<h2>6. إدارة الأذونات</h2>
+<p>على iOS يمكنك تغيير أذونات التتبّع والموقع في أي وقت من إعدادات الجهاز.</p>
+<h2>7. التواصل</h2>
+<p><a href="mailto:mustafaturkan.apps@gmail.com">mustafaturkan.apps@gmail.com</a></p>
+<p class="muted"><a href="./index.html">← الرئيسية</a> · <a href="./kullanim-kosullari.html">شروط الاستخدام</a></p>
+</section>
+
+<script>
+(function(){
+  var q=new URLSearchParams(location.search).get('lang');
+  var nav=(navigator.language||'en').slice(0,2).toLowerCase();
+  var ok=['tr','en','ar'];
+  var lang=ok.indexOf(q)>=0?q:(['tr','ar'].indexOf(nav)>=0?nav:'en');
+  document.documentElement.lang=lang;
+  document.documentElement.dir=(lang==='ar')?'rtl':'ltr';
+  ok.forEach(function(l){
+    var el=document.getElementById('lang-'+l);
+    if(el) el.style.display=(l===lang)?'block':'none';
+  });
+})();
+</script>
 </main>
 </body>
 </html>
