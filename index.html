@@ -32,6 +32,7 @@
   <div class="links">
     <a id="lp" href="./gizlilik.html"></a>
     <a id="lt" href="./kullanim-kosullari.html"></a>
+    <a id="ld" href="./hesap-silme.html"></a>
   </div>
 </main>
 <footer>© <span id="y"></span> Islam Super App · <a href="mailto:mustafaturkan.apps@gmail.com">mustafaturkan.apps@gmail.com</a></footer>
@@ -44,14 +45,15 @@
   document.documentElement.lang=lang;
   document.documentElement.dir=(lang==='ar')?'rtl':'ltr';
   var t={
-    tr:{tag:"Vaktinde namaz, kalbinde huzur.",intro:"Islam Super App; namaz vakitleri, Kur'an-ı Kerim, kıble, zikirmatik, dualar ve ibadet takibi sunan bir mobil uygulamadır.",p:"Gizlilik Politikası",tr2:"Kullanım Koşulları"},
-    en:{tag:"Pray on time, find peace in your heart.",intro:"Islam Super App is a mobile app offering prayer times, the Holy Qur'an, qibla, tasbih, supplications and worship tracking.",p:"Privacy Policy",tr2:"Terms of Use"},
-    ar:{tag:"صلِّ في وقتها، وتجد السكينة في قلبك.",intro:"تطبيق Islam Super App تطبيق جوّال يقدّم أوقات الصلاة والقرآن الكريم والقبلة والمسبحة والأدعية ومتابعة العبادة.",p:"سياسة الخصوصية",tr2:"شروط الاستخدام"}
+    tr:{tag:"Vaktinde namaz, kalbinde huzur.",intro:"Islam Super App; namaz vakitleri, Kur'an-ı Kerim, kıble, zikirmatik, dualar ve ibadet takibi sunan bir mobil uygulamadır.",p:"Gizlilik Politikası",tr2:"Kullanım Koşulları",del:"Hesap Silme"},
+    en:{tag:"Pray on time, find peace in your heart.",intro:"Islam Super App is a mobile app offering prayer times, the Holy Qur'an, qibla, tasbih, supplications and worship tracking.",p:"Privacy Policy",tr2:"Terms of Use",del:"Account Deletion"},
+    ar:{tag:"صلِّ في وقتها، وتجد السكينة في قلبك.",intro:"تطبيق Islam Super App تطبيق جوّال يقدّم أوقات الصلاة والقرآن الكريم والقبلة والمسبحة والأدعية ومتابعة العبادة.",p:"سياسة الخصوصية",tr2:"شروط الاستخدام",del:"حذف الحساب"}
   }[lang];
   document.getElementById('tag').textContent=t.tag;
   document.getElementById('intro').textContent=t.intro;
   document.getElementById('lp').textContent=t.p;
   document.getElementById('lt').textContent=t.tr2;
+  document.getElementById('ld').textContent=t.del;
   document.getElementById('y').textContent=new Date().getFullYear();
 })();
 </script>
